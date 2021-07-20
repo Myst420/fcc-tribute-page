@@ -49,6 +49,18 @@ body {
     text-align: center;
     padding: 30px;
 }
+#myBtn {
+    background-color: burlywood;
+    padding: 6px 15px;
+    margin: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#btn:hover {
+    background-color: rgb(241, 161, 57);
+}
+
+#more {display: none;}
 
 @media screen and (max-width: 800px) {
     #image  img {
